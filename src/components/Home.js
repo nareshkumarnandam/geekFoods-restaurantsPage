@@ -42,6 +42,8 @@ const Home = () => {
                     type="number"
                     name="rating"
                     placeholder="0"
+                    min={0}
+                    max={5}
                     onChange={updateRating}
                     />
                 </div>
