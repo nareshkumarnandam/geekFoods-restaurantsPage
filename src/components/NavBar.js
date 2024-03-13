@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import '../App.css';
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
         <ul style={{fontSize: "1rem"}}>
             <li className='home'>Home</li>
             <li className='quote'>Quote</li>
-            <li>Restaurants</li>
+            <li className='restaurants'>Restaurants</li>
             <li>Food</li>
             <li>Contact</li>
         </ul>

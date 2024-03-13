@@ -51,7 +51,7 @@
   z-index: 2;
   border-bottom: .01px solid rgba(0, 0, 0, 0.103);
 }
-.quote{
+.restaurants{
   color: #1D4ED8;
 }
 .nav > ul{
@@ -95,4 +95,33 @@
 }
 .getStartedBtn:hover{
   background-color: #1E40AF;
+}
+.homeDiv{
+  position: relative;
+  top: 80px;
+}
+.inputs{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+input{
+  height: 40px;
+  border: 1px solid #35353552;
+  padding: 0 5px;
+  width: 150px;
+  border-radius: 2px;
+}
+#rating{
+  width: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
 }
